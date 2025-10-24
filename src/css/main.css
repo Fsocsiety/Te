@@ -1,0 +1,10 @@
+/* === ИМПОРТ ВСЕХ CSS ФАЙЛОВ === */
+@import url("base.css");
+@import url("components.css");
+@import url("layout.css");
+@import url("sections.css");
+
+/* Добавь этот стиль в конец файла */
+main {
+  padding-top: var(--header-height);
+}
